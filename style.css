@@ -1,0 +1,343 @@
+@font-face {
+    font-family: 'Institut';
+    src: url('/font/Institut.ttf');
+  }
+
+  @font-face {
+    font-family: 'NeueMontreal';
+    src: url('/Users/elinny/Desktop/VA/Projects/Parsons/Sophomore/Studio Spring24/Project 3/NeueMontreal-Light.woff') format("opentype");
+  }
+
+html {
+    background-color: #E6D7D3;
+    padding-left: 7%;
+    padding-right: 7%;
+    overflow-x: hidden;
+
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    padding-top: 5%;
+    font-family:institut;
+    font-size: 35pt;
+    color: #00003C;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-family:institut;
+    font-size: 25pt;
+    color: #00003C;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+div.SubT_WhatIsIt {
+    position: relative;
+}
+
+div.SubT_History {
+    position: relative;
+}
+
+div.SubT_Data {
+    position: relative;
+}
+
+div.SubT_Ethics {
+    position: relative;
+}
+
+div.Background_Deco {
+    position: relative;
+}
+
+div.grayBlock {
+    width: 250px;
+    height:65px;
+    position: relative;
+    top:-65px;
+    left:-25px;
+    background-color: #B3B8C0;
+    z-index: -1;
+}
+
+div.stripes {
+    width: 250px;
+    height:65px;
+    position: absolute;
+    top:0px;
+    left:-15px;
+    z-index: -2;
+    background: repeating-linear-gradient(
+        45deg,
+        #00003C,
+        #00003C 2px,
+        #E6D7D3 2px,
+        #E6D7D3 5px
+      );
+}
+
+h3 {
+    margin-top: 3%;
+    font-family:institut;
+    color: #00003C;
+    font-size: 20pt;
+
+}
+
+h4 {
+    font-family:institut;
+    font-size: 40pt;
+    color: #00003C;
+}
+
+p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family:NeueMontreal;
+    font-size: 15pt;
+    color: #00003C;
+    line-height: 1.6;
+}
+
+.stop_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top:50px;
+    margin-bottom: 150px;
+    width: 500px;
+}
+
+.stop_content {
+    position: relative;
+    padding: 20px;
+}
+
+.policeLine1 {
+    width:auto;
+    height:1000px;
+    position: absolute; 
+    top: 100px;
+    left: 0; 
+    z-index: -3;
+}
+
+.policeLine2 {
+    width:auto;
+    height:1000px;
+    position: absolute; 
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    top: 100px;
+    left: 0; 
+    z-index: -4;
+}
+
+.question_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 150px;
+    width: 500px;
+    left:30%;
+}
+
+.question_content {
+    position: relative;
+    padding: 20px;
+}
+
+.Questionmark1 {
+    height: 130px;
+    position: absolute; 
+    z-index: -3;
+    top: 1000; 
+    left: 70%; 
+}
+
+.Questionmark2 {
+    height: 100px;
+    position: absolute; 
+    z-index: -3;
+    top: 1000; 
+    left: 10%; 
+}
+
+.Questionmark3 {
+    height: 150px;
+    position: absolute; 
+    z-index: -3;
+    top: 1100; 
+    left: 20%; 
+}
+
+.Questionmark4 {
+    height: 170px;
+    position: absolute; 
+    z-index: -3;
+    top: 900; 
+    left: 90%; 
+}
+
+.Questionmark5 {
+    height: 70px;
+    position: absolute; 
+    z-index: -3;
+    top: 900; 
+    left: 90%; 
+}
+
+.Questionmark6 {
+    height: 30px;
+    position: absolute; 
+    z-index: -3;
+    top: 1000; 
+    left: 80%; 
+}
+
+.Questionmark7 {
+    height: 90px;
+    position: absolute; 
+    z-index: -3;
+    top: 900; 
+    left: 10%; 
+}
+
+.Questionmark8 {
+    height: 60px;
+    position: absolute; 
+    z-index: -3;
+    top: 1100; 
+    left: 80%; 
+}
+
+.frisk_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 170px;
+    width: 700px;
+    left:40%;
+}
+
+.frisk_content {
+    position: relative;
+    padding: 20px;
+}
+
+.manFrisked {
+    width: auto;
+    height: 500px;
+    position: absolute;
+    top: 1245; /* Align the top of manFrisked with the top of beigeBlock_background */
+    left: 10; /* Align the left of manFrisked with the left of beigeBlock_background */
+    z-index: -1;
+}
+
+.beigeBlock_background {
+    position: absolute;
+    width: 100%; /* Occupy the full width of the .stop_content */
+    height: 100%; /* Occupy the full height of the .stop_content */
+    background-color: #cf3f18;
+    z-index: -1;
+    top: 0; 
+    left: 0; 
+}
+
+.stripes_background {
+    position: absolute;
+    width: 100%; /* Occupy the full width of the .stop_content */
+    height: 100%; /* Occupy the full height of the .stop_content */
+    background: repeating-linear-gradient(
+        45deg,
+        #00003C,
+        #00003C 2px,
+        #E6D7D3 2px,
+        #E6D7D3 5px
+      );
+    z-index: -2;
+    top: 30; 
+    left: -20; 
+}
+
+
+.lookingGlass {
+    width:auto;
+    height:300px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: absolute; 
+    top: -60px;
+    right: -55; 
+}
+
+.whiteDot {
+    height: 25px;
+    width: 25px;
+    background-color: #F9AB22;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blackDot {
+    height: 25px;
+    width: 25px;
+    background-color: #3158A5;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.asianDot {
+    height: 25px;
+    width: 25px;
+    background-color: #FF5006;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blackHispanicDot {
+    height: 25px;
+    width: 25px;
+    background-color: #79A531;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.whiteHispanicDot {
+    height: 25px;
+    width: 25px;
+    background-color: #ADC420;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.americanIndianDot {
+    height: 25px;
+    width: 25px;
+    background-color: #27AFB8;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.middleEasternDot {
+    height: 25px;
+    width: 25px;
+    background-color: #A53333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+  
+
