@@ -41,6 +41,10 @@ h2 {
     margin-bottom: 1%;
 }
 
+h4 span {
+    color: #FF5006;
+}
+
 div.SubT_WhatIsIt {
     position: relative;
 }
