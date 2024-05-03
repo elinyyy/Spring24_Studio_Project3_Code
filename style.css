@@ -41,10 +41,6 @@ h2 {
     margin-bottom: 1%;
 }
 
-h4 span {
-    color: #FF5006;
-}
-
 div.SubT_WhatIsIt {
     position: relative;
 }
@@ -96,7 +92,13 @@ h3 {
     font-family:institut;
     color: #00003C;
     font-size: 20pt;
+}
 
+h3 span {
+    margin-bottom: 3%;
+    font-family:institut;
+    color: #ea18b9;
+    font-size: 20pt;
 }
 
 h4 {
@@ -113,6 +115,8 @@ p {
     color: #00003C;
     line-height: 1.6;
 }
+
+
 
 .stop_container {
     display: flex;
@@ -160,70 +164,6 @@ p {
 .question_content {
     position: relative;
     padding: 20px;
-}
-
-.Questionmark1 {
-    height: 130px;
-    position: absolute; 
-    z-index: -3;
-    top: 1000; 
-    left: 70%; 
-}
-
-.Questionmark2 {
-    height: 100px;
-    position: absolute; 
-    z-index: -3;
-    top: 1000; 
-    left: 10%; 
-}
-
-.Questionmark3 {
-    height: 150px;
-    position: absolute; 
-    z-index: -3;
-    top: 1100; 
-    left: 20%; 
-}
-
-.Questionmark4 {
-    height: 170px;
-    position: absolute; 
-    z-index: -3;
-    top: 900; 
-    left: 90%; 
-}
-
-.Questionmark5 {
-    height: 70px;
-    position: absolute; 
-    z-index: -3;
-    top: 900; 
-    left: 90%; 
-}
-
-.Questionmark6 {
-    height: 30px;
-    position: absolute; 
-    z-index: -3;
-    top: 1000; 
-    left: 80%; 
-}
-
-.Questionmark7 {
-    height: 90px;
-    position: absolute; 
-    z-index: -3;
-    top: 900; 
-    left: 10%; 
-}
-
-.Questionmark8 {
-    height: 60px;
-    position: absolute; 
-    z-index: -3;
-    top: 1100; 
-    left: 80%; 
 }
 
 .frisk_container {
@@ -326,22 +266,48 @@ p {
     display: inline-block;
 }
 
-.americanIndianDot {
-    height: 25px;
-    width: 25px;
-    background-color: #27AFB8;
-    border-radius: 50%;
-    display: inline-block;
+
+#dots {
+    margin: 50px;
 }
 
-.middleEasternDot {
-    height: 25px;
-    width: 25px;
-    background-color: #A53333;
-    border-radius: 50%;
-    display: inline-block;
+#AAnumber {
+    color: #3158A5;
 }
 
+#WHnumber {
+    color: #ADC420;
+}
+
+#BHnumber {
+    color: #79A531;
+}
+
+#EAnnumber {
+    color: #F9AB22;
+}
+
+#APInumber {
+    color: #FF5006;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .text {
+    margin-left: 10px;
+    font-family:NeueMontreal;
+    font-size: 15pt;
+  }
+  
 
   
 
