@@ -5,7 +5,7 @@
 
   @font-face {
     font-family: 'NeueMontreal';
-    src: url('/Users/elinny/Desktop/VA/Projects/Parsons/Sophomore/Studio Spring24/Project 3/NeueMontreal-Light.woff') format("opentype");
+    src: url('NeueMontreal-Light.woff') format("opentype");
   }
 
 html {
@@ -18,6 +18,7 @@ html {
 
 body {
     margin: 0;
+    padding-bottom: 80px;
 }
 
 h1, h2, h3, h4, p {
@@ -43,18 +44,22 @@ h2 {
 
 div.SubT_WhatIsIt {
     position: relative;
+    margin-bottom: 60px;
 }
 
 div.SubT_History {
     position: relative;
+    margin-bottom: 60px;
 }
 
 div.SubT_Data {
     position: relative;
+    margin-bottom: 60px;
 }
 
 div.SubT_Ethics {
     position: relative;
+    margin-bottom: 60px;
 }
 
 div.Background_Deco {
@@ -64,8 +69,8 @@ div.Background_Deco {
 div.grayBlock {
     width: 250px;
     height:65px;
-    position: relative;
-    top:-65px;
+    position: absolute;
+    top:-15px;
     left:-25px;
     background-color: #B3B8C0;
     z-index: -1;
@@ -94,12 +99,6 @@ h3 {
     font-size: 20pt;
 }
 
-h3 span {
-    margin-bottom: 3%;
-    font-family:institut;
-    color: #ea18b9;
-    font-size: 20pt;
-}
 
 h4 {
     font-family:institut;
@@ -116,7 +115,12 @@ p {
     line-height: 1.6;
 }
 
-
+li {
+    font-family:NeueMontreal;
+    font-size: 15pt;
+    color: #00003C;
+    line-height: 1.6;
+}
 
 .stop_container {
     display: flex;
@@ -159,7 +163,29 @@ p {
     margin-bottom: 150px;
     width: 500px;
     left:30%;
+    
 }
+
+.sqfForm1 {
+    width:auto;
+    height:500px;
+    position: absolute; 
+    top: 800px;
+    right: -300px; 
+    z-index: -4;
+
+}
+
+.sqfForm2 {
+    width:auto;
+    height:500px;
+    position: absolute; 
+    top: 900px;
+    left: -300px; 
+    z-index: -4;
+
+}
+
 
 .question_content {
     position: relative;
@@ -193,7 +219,7 @@ p {
     position: absolute;
     width: 100%; /* Occupy the full width of the .stop_content */
     height: 100%; /* Occupy the full height of the .stop_content */
-    background-color: #cf3f18;
+    background-color: #E6D7D3;
     z-index: -1;
     top: 0; 
     left: 0; 
@@ -291,6 +317,31 @@ p {
     color: #FF5006;
 }
 
+.AASQF {
+    margin-top:1px;
+    margin-bottom: 30px;
+}
+
+.WHSQF {
+    margin-top:1px;
+    margin-bottom: 30px;
+}
+
+.BHSQF {
+    margin-top:1px;
+    margin-bottom: 30px;
+}
+
+.EASQF {
+    margin-top:1px;
+    margin-bottom: 30px;
+}
+
+.APISQF {
+    margin-top:1px;
+    margin-bottom: 60px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -307,6 +358,31 @@ p {
     font-family:NeueMontreal;
     font-size: 15pt;
   }
+
+  @media only screen 
+  and (device-width: 430px) 
+  and (device-height: 932px)
+  and (-webkit-device-pixel-ratio: 3)  {
+    
+    body {
+        margin: 0;
+        padding-bottom: 80px;
+    }
+
+    h1 {
+        padding-top: 5%;
+        font-size: 50pt;
+        margin-bottom: 2%;
+    }
+    
+    h2 {
+        font-size: 15pt;
+        margin-top: 3%;
+        margin-bottom: 1%;
+    }
+    
+}
+
   
 
   
