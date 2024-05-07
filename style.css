@@ -8,17 +8,24 @@
     src: url('NeueMontreal-Light.woff') format("opentype");
   }
 
+div {
+    /* width: 100vw !important; */
+    box-sizing: border-box !important;
+}
+
 html {
     background-color: #E6D7D3;
-    padding-left: 7%;
-    padding-right: 7%;
     overflow-x: hidden;
 
 }
 
 body {
+    padding-left: 7%;
+    padding-right: 7%;
+    box-sizing: border-box;
     margin: 0;
     padding-bottom: 80px;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, p {
@@ -389,7 +396,6 @@ li {
     body {
         margin: 0;
         padding-bottom: 80px;
-        width:50%;
     }
 
     h1 {
@@ -425,6 +431,8 @@ li {
     li {
         font-size: 8pt;
         line-height: 1.6;
+        white-space: pre-line;
+        word-wrap: break-word;
     }
 
     .lookingGlass {
@@ -499,7 +507,11 @@ li {
     .question_container {
         margin-bottom: 200px;
         width: 200px;
-        left:0%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right:auto;
+        margin-bottom: 30px; 
+        left: 0;
         
     }
 
@@ -541,8 +553,14 @@ li {
         z-index: -1;
     }
 
+    .blackDot, .whiteHispanicDot, .blackHispanicDot, .whiteDot {
+        flex-grow: 1;
+        min-width: 5px;
+    }
+
+
     .grid {
-        width: 200px;
+        width: 100%;
       }
 
     .text {
