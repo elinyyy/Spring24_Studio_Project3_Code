@@ -395,7 +395,7 @@ li {
 
     body {
         margin: 0;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
 
     h1 {
@@ -439,7 +439,8 @@ li {
         width:auto;
         height:90px;
         top: 0px;
-        left: 110px; 
+        right: -30px; 
+        rotate: 25deg;
     }
 
     div.grayBlock {
@@ -481,6 +482,7 @@ li {
         margin-top:50px;
         margin-bottom: 150px;
         width: 200px;
+        left:80px;
     }
     
     .stop_content {
@@ -491,7 +493,7 @@ li {
         width:auto;
         height:500px;
         position: absolute; 
-        top: 275px;
+        top: 190px;
         left: 0; 
         z-index: -1;
     }
@@ -499,7 +501,7 @@ li {
     .policeLine2 {
         width:auto;
         height:500px;
-        top: 150px;
+        top: 30px;
         left: 0; 
         z-index: 1;
     }
@@ -511,22 +513,22 @@ li {
         margin-left: auto;
         margin-right:auto;
         margin-bottom: 30px; 
-        left: 0;
+        left: -40px;
         
     }
 
     .sqfForm1 {
         width:auto;
         height:250px;
-        top: 670px;
-        right: 0px; 
+        top:590px;
+        right:-100px; 
     
     }
     
     .sqfForm2 {
         width:auto;
         height:150px;
-        top: 840px;
+        top: 760px;
         left: -100px; 
         z-index: -1;
     
@@ -535,7 +537,7 @@ li {
     .frisk_container {
         margin-bottom: 100px;
         width: 200px;
-        left:0%;
+        left:150px;
     }
     
     .frisk_content {
@@ -544,18 +546,16 @@ li {
     }
 
     .manFrisked {
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
         width: auto;
         height: 170px;
-        top: 960px; /* Align the top of manFrisked with the top of beigeBlock_background */
-        left: 20px; /* Align the left of manFrisked with the left of beigeBlock_background */
+        top: 1010px;
+        left: -30px; 
         z-index: -1;
     }
 
-    .blackDot, .whiteHispanicDot, .blackHispanicDot, .whiteDot {
+    .blackDot, .whiteHispanicDot, .blackHispanicDot, .whiteDot, .asianDot {
         flex-grow: 1;
-        min-width: 5px;
+        min-width: 8px;
     }
 
 
@@ -569,33 +569,33 @@ li {
       }
 
     #dots {
-        margin: 5px;
+        margin: 8px;
         margin-top: 20px;
     }
 
     .whiteDot {
-        height: 5px;
-        width: 5px;
+        height: 8px;
+        width: 8px;
     }
 
     .blackDot {
-        height: 5px;
-        width: 5px;
+        height: 8px;
+        width: 8px;
     }
 
     .asianDot {
-        height: 5px;
-        width: 5px;
+        height: 8px;
+        width: 8px;
     }
 
     .blackHispanicDot {
-        height: 5px;
-        width: 5px;
+        height: 8px;
+        width: 8px;
     }
 
     .whiteHispanicDot {
-        height: 5px;
-        width: 5px;
+        height: 8px;
+        width: 8px;
     }
 
     .WHStat {
@@ -608,6 +608,19 @@ li {
         right:0px;
     }
 
+  .background-images {
+    min-height: 400%;
+    }
+
+    .WHStat {
+        text-align: right;
+        right:0px;
+    }
+    
+    .EAStat {
+        text-align: right;
+        right:0px;
+    }
 
 
 
